@@ -9,6 +9,6 @@ dataset,label = function.readfile(file1)
 dataset_norm = function.norm(dataset)
 label_norm = function.norm(label)
 train_data,test_data = function.prepare(dataset, label, percent, epoch)
-
+print(train_data)
 
 
